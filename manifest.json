@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Basecamp Copy Link",
+  "version": "1.0",
+
+  "description": "Adds a copy link for each TODO in Basecamp that copies the title and link in Slack format for easy copy pasting.",
+  "homepage_url": "https://github.com/aapomm",
+  "icons": {
+    "48": "icons/link.png"
+  },
+
+  "permissions": ["clipboardWrite"],
+
+  "content_scripts": [
+    {
+      "matches": ["*://3.basecamp.com/*"],
+      "js": ["basecopify.js"],
+      "css": ["basecopify.css"]
+    }
+  ]
+}
+
