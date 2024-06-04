@@ -1,7 +1,6 @@
 .basecopify-link {
-  position: absolute;
-  right: 0;
-  top: 1rem;
   display: none;
   color: var(--color-uncolor);
+  font-size: 0.875em;
+  transition: opacity 150ms ease;
 }

@@ -1,4 +1,4 @@
-# Basecamp Copy Link
+# Basecamp to Slack
 Adds a "Copy" link for each TODO in Basecamp that copies the title and link in Slack format for easy copy pasting.
 
 ## Installation
@@ -8,6 +8,7 @@ Adds a "Copy" link for each TODO in Basecamp that copies the title and link in S
 2. In your Firefox browser, visit the url "about:debugging" and click "This Firefox"
 3. Click "Load Temporary Add-on" and upload basecopify.js (although any file in the repo would work!)
 4. The extension should now be loaded
+5. If the extension isn't working, you might need to give permissions to the extension through the extensions menu
 
 *For Chrome:*
 1. Clone the repo

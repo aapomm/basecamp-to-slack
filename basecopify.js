@@ -1,16 +1,13 @@
 console.log('basecopify loaded!');
 
 document.querySelectorAll('[data-behavior~=todo]').forEach(function(el){
-  child = document.createElement('span');
-  child.className = 'basecopify-link'
-  child.setAttribute('data-behavior', 'basecopify-link');
-
   link = document.createElement('a');
   link.href = '#';
   link.textContent = 'Copy for Slack';
+  link.className = 'basecopify-link'
+  link.setAttribute('data-behavior', 'basecopify-link');
 
-  child.appendChild(link);
-  el.appendChild(child);
+  el.querySelector('.todo__inline-edit-positioner').appendChild(link);
 
   el.addEventListener('mouseenter', function(event){
     link = event.target.querySelector('[data-behavior~=basecopify-link]');
