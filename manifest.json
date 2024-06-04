@@ -3,7 +3,7 @@
   "name": "Basecamp To Slack",
   "version": "1.0",
 
-  "description": "Adds a copy link for each TODO in Basecamp that copies the title and link in Slack format for easy copy pasting.",
+  "description": "Adds a \"Copy for Slack\" link to each TODO in Basecamp that copies the title and link in Slack format for easy copy and pasting.",
   "homepage_url": "https://github.com/aapomm/basecamp-to-slack",
   "icons": {
     "48": "icons/link.png"
