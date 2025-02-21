@@ -1,7 +1,13 @@
 # Basecamp to Slack
-Adds a "Copy" link for each TODO in Basecamp that copies the title and link in Slack format for easy copy pasting.
+Adds a "Copy for Slack" link to each TODO in Basecamp that copies the title and link in Slack format for easy copy and pasting.
 
-## Installation
+## Official Installation
+
+*Firefox*: https://addons.mozilla.org/en-US/firefox/addon/basecamp-to-slack/
+
+*Chrome*: https://chromewebstore.google.com/detail/ndjkbmnjjfcfbcploenmkdobdcfpmooh
+
+## Manual Installation
 
 *For Firefox:*
 1. Clone the repo

@@ -17,6 +17,12 @@
       "js": ["basecopify.js"],
       "css": ["basecopify.css"]
     }
-  ]
+  ],
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{9dae1bff-8d33-4bda-b8f7-289975e372b5}"
+    }
+  }
 }
 
